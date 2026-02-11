@@ -48,7 +48,6 @@ cc_test(
         ":performance_test_fixture",
     ],
     timeout = "moderate",
-    tags = ["exclusive"],
 )
 
 cc_test(
@@ -63,7 +62,6 @@ cc_test(
         ":performance_test_fixture",
     ],
     timeout = "short",
-    tags = ["exclusive"],
 )
 
 cc_test(
@@ -79,7 +77,6 @@ cc_test(
         ":performance_test_fixture",
     ],
     timeout = "short",
-    tags = ["exclusive"],
 )
 
 # ros_cc_binary(
