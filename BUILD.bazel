@@ -41,6 +41,7 @@ cc_test(
         "test/benchmark/macros.h",
     ],
     includes = ["include"],
+    tags = ["manual"],
     deps = [
         ":performance_test_fixture",
         "@google_benchmark//:benchmark_main",
@@ -56,6 +57,7 @@ cc_test(
         "test/benchmark/macros.h",
     ],
     includes = ["include"],
+    tags = ["manual"],
     deps = [
         ":performance_test_fixture",
         "@google_benchmark//:benchmark_main",
@@ -70,6 +72,7 @@ cc_test(
         "test/benchmark/macros.h",
     ],
     includes = ["include"],
+    tags = ["manual"],
     deps = [
         ":performance_test_fixture",
         "@google_benchmark//:benchmark_main",
